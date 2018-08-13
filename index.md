@@ -1,4 +1,4 @@
-<img _ngcontent-c2="" src="https:///www.ps8383.com/member/img/ps3838/header/ps3838-logo.svg" style="background-color: transparent;"> 
+<img _ngcontent-c2="" src="https://www.ps8383.com/member/img/ps3838/header/ps3838-logo.svg" style="background-color: transparent;"> 
 
 
 # Overview
