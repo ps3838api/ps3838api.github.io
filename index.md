@@ -1,123 +1,92 @@
----
-layout: default
----
+<img _ngcontent-c2="" src="" style="background-color: transparent;"> 
 
-Text can be **bold**, _italic_, or ~~strikethrough~~.
 
-[Link to another page](./another-page.html).
+# Overview
 
-There should be whitespace between paragraphs.
+PS3838 API is a RESTful service for betting all bet types on all sports. 
 
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
+#### Authentication 
 
-# Header 1
 
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+The API uses HTTP Basic access authentication. Always use HTTPS to access the API.
 
-## Header 2
-
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
-
-### Header 3
-
-```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
-}
+You need to send HTTP Request header like this:
+```
+Authorization: Basic <Base64 value of UTF-8 encoded “username:password”> 
 ```
 
-```ruby
-# Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
-end
-```
-
-#### Header 4
-
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-
-##### Header 5
-
-1.  This is an ordered list following a header.
-2.  This is an ordered list following a header.
-3.  This is an ordered list following a header.
-
-###### Header 6
-
-| head1        | head two          | three |
-|:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
-
-### There's a horizontal rule below this.
-
-* * *
-
-### Here is an unordered list:
-
-*   Item foo
-*   Item bar
-*   Item baz
-*   Item zip
-
-### And an ordered list:
-
-1.  Item one
-1.  Item two
-1.  Item three
-1.  Item four
-
-### And a nested list:
-
-- level 1 item
-  - level 2 item
-  - level 2 item
-    - level 3 item
-    - level 3 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-
-### Small image
-
-![Octocat](https://assets-cdn.github.com/images/icons/emoji/octocat.png)
-
-### Large image
-
-![Branching](https://guides.github.com/activities/hello-world/branching.png)
-
-
-### Definition lists can be used with HTML syntax.
-
-<dl>
-<dt>Name</dt>
-<dd>Godzilla</dd>
-<dt>Born</dt>
-<dd>1952</dd>
-<dt>Birthplace</dt>
-<dd>Japan</dd>
-<dt>Color</dt>
-<dd>Green</dd>
-</dl>
+Example:
 
 ```
-Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
+Authorization: Basic BASE64STRING 
 ```
 
+
+Please note that in order to access PS3838 API, you must have a funded account.
+
+#### Data Formats 
+
+PS3838 API supports only JSON format.
+HTTP header `Accept` must be set:
 ```
-The final element.
+    Accept: application/json
 ```
+POST HTTP Request must have JSON body content and `Content-Type` HTTP header must be set:
+
+```
+    Content-Type: application/json
+```
+
+#### Compression 
+
+PS3838 API supports HTTP compression. We strongly recommend using compression as it would give the best performance.
+
+Please make sure to set the `User-Agent` HTTP header or compression might not work.
+
+#### Date Time Format 
+
+All dates and times are in GMT time zone, ISO 8601 format
+
+#### Deduplication
+
+When a client issues a network request, it is always possible for the request to timeout or return an error status code indicating that the bet may not have been accepted. This opens up the possibility of the same request being sent more than once, which could create duplicate bets. Deduplication is a technique to avoid creating these duplicates when retrying a create request. We do the deduplication automatically for you.  
+
+If the bet is accepted, we store the `uniqueRequestId` in the system for 30 min. If you try again within that time range to place a bet with the same `uniqueRequestId`, you will get the appropriate error.
+
+All place bet requests support deduplication.
+
+
+# API Reference
+
+**[PS3838 API Open API Specification](https://github.com/ps3838api/api-spec/tree/master/OpenAPI)** is hosted on GitHub.
+
+The API reference documentation:
+
+**[Lines API](https://ps3838api.github.io/linesapi)**
+
+**[Bets API](https://ps3838api.github.io/betsapi)**
+
+**[Customer API](https://ps3838api.github.io/customerapi)**
+
+
+
+
+# More ...
+
+[Getting Started](GettingStarted.md)
+
+[API Change Log](APIChangelog.md) 
+
+[FAQ](FAQ.md)
+
+[Fair Use Policy](FairUsePolicy.md)
+
+# API Status
+You can follow [pinnacle status page](https://status.ps3838.com/) and subscribe to get the notifications on API status.  
+
+
+# Disclaimer
+
+ PS3838 is not liable for use of the API for any purpose. The API is provided on an “as is” and “as available” basis, without warranties of any kind, either expressed or implied, including, without limitation, implied warranties of merchantability and fitness for a particular purpose or non-infringement.
+
+ 
