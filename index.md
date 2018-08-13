@@ -81,7 +81,7 @@ The API reference documentation:
 [Fair Use Policy](FairUsePolicy.md)
 
 # API Status
-You can follow [pinnacle status page](https://status.ps3838.com/) and subscribe to get the notifications on API status.  
+You can follow [PS3838 status page](https://status.ps3838.com/) and subscribe to get the notifications on API status.  
 
 
 # Disclaimer
