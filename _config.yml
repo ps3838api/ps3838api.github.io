@@ -1,6 +1,6 @@
 
-title: Tactile theme
-description: Tactile is a theme for GitHub Pages.
-show_downloads: true
+title: PS3838 API
+description: PS3838 API is a RESTful service for betting all bet types on all sports.
+show_downloads: false
 google_analytics:
 theme: jekyll-theme-tactile
