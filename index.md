@@ -61,11 +61,11 @@ All place bet requests support deduplication.
 
 The API reference documentation:
 
-**[Lines API](https://ps3838api.github.io/docs?linesapi)**
+**[Lines API](https://ps3838api.github.io/docs?api=lines)**
 
-**[Bets API](https://ps3838api.github.io/docs?betsapi)**
+**[Bets API](https://ps3838api.github.io/docs?api=bets)**
 
-**[Customer API](https://ps3838api.github.io/docs?customerapi)**
+**[Customer API](https://ps3838api.github.io/docs?api=customer)**
 
 
 
