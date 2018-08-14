@@ -1,8 +1,23 @@
 
+[Getting Started](GettingStarted.md)
 
-# Overview
+[API Change Log](ChangesLog.md) 
 
-PS3838 API is a RESTful service for betting all bet types on all sports. 
+[FAQ](FAQs.md)
+
+[Fair Use Policy](FairUsePolicy.md)
+
+# API Reference
+
+The API reference documentation:
+
+**[Lines API](https://ps3838api.github.io/docs?api=lines)**
+
+**[Bets API](https://ps3838api.github.io/docs?api=bets)**
+
+**[Customer API](https://ps3838api.github.io/docs?api=customer)**
+
+
 
 #### Authentication 
 
@@ -69,19 +84,11 @@ The API reference documentation:
 
 
 
-
-# More ...
-
-[Getting Started](GettingStarted.md)
-
-[API Change Log](ChangesLog.md) 
-
-[FAQ](FAQs.md)
-
-[Fair Use Policy](FairUsePolicy.md)
-
 # API Status
 You can follow [PS3838 status page](https://status.ps3838.com/) and subscribe to get the notifications on API status.  
+
+
+**[PS3838 API Open API Specification](https://github.com/ps3838api/api-spec/tree/master/OpenAPI)** is hosted on GitHub.
 
 
 # Disclaimer
