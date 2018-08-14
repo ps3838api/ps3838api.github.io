@@ -1,4 +1,6 @@
 
+# API Reference
+
 [Getting Started](GettingStarted.md)
 
 [API Change Log](ChangesLog.md) 
@@ -7,9 +9,7 @@
 
 [Fair Use Policy](FairUsePolicy.md)
 
-# API Reference
-
-The API reference documentation:
+#### The API reference documentation:
 
 **[Lines API](https://ps3838api.github.io/docs?api=lines)**
 
@@ -68,20 +68,6 @@ When a client issues a network request, it is always possible for the request to
 If the bet is accepted, we store the `uniqueRequestId` in the system for 30 min. If you try again within that time range to place a bet with the same `uniqueRequestId`, you will get the appropriate error.
 
 All place bet requests support deduplication.
-
-
-# API Reference
-
-**[PS3838 API Open API Specification](https://github.com/ps3838api/api-spec/tree/master/OpenAPI)** is hosted on GitHub.
-
-The API reference documentation:
-
-**[Lines API](https://ps3838api.github.io/docs?api=lines)**
-
-**[Bets API](https://ps3838api.github.io/docs?api=bets)**
-
-**[Customer API](https://ps3838api.github.io/docs?api=customer)**
-
 
 
 # API Status
