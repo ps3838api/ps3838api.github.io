@@ -74,7 +74,7 @@ The API reference documentation:
 
 [Getting Started](GettingStarted.md)
 
-[API Change Log](APIChangelog.md) 
+[API Change Log](ChangesLog.md) 
 
 [FAQ](FAQ.md)
 
