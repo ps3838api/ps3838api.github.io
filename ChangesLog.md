@@ -1,6 +1,6 @@
 API 6.5.1 Release Notes
 
-<b>FEATURE</b></br>
+<b>FEATURE</b>
 
 Updated structure of response for Placing bet (Parlay, Teaser, Special)
 <ul>
