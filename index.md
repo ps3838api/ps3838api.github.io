@@ -32,7 +32,7 @@ Authorization: Basic <Base64 value of UTF-8 encoded “username:password”>
 Example:
 
 ```
-Authorization: Basic BASE64STRING 
+Authorization: Basic dXNlcm5hbWU6cGFzc3dvcmQ= 
 ```
 
 
