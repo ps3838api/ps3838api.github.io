@@ -1,9 +1,9 @@
 ## August 14th , 2018 - Bets API 
 
 
-##### 1# <span style="background-color:green">FEATURE</span>  - New properties `TeaserId` and `TeaserGroupId` for teaser bets  in the `/bets` response.
+##### 1# <span>FEATURE</span>  - New properties `TeaserId` and `TeaserGroupId` for teaser bets  in the `/bets` response.
 
-##### 2# <span style="background-color:green">FEATURE</span>  - Bet object added to the `bets/parlay` , `bets/teaser`  and `bets/special`  response.
+##### 2# <span>FEATURE</span>  - Bet object added to the `bets/parlay` , `bets/teaser`  and `bets/special`  response.
 
 
 <b>FEATURE</b>
