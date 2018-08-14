@@ -1,4 +1,4 @@
-API Changelog
+ #  **API Changelog**
 
 ## August 14th, 2018 - Bets API 
 
