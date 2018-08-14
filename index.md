@@ -76,7 +76,7 @@ The API reference documentation:
 
 [API Change Log](ChangesLog.md) 
 
-[FAQ](FAQ.md)
+[FAQ](FAQs.md)
 
 [Fair Use Policy](FairUsePolicy.md)
 
