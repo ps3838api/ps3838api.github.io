@@ -241,6 +241,18 @@ All times are GMT.
 
 Please use  `Get Settled Fixtures`  to find out if the event's period was settled or if the event was deleted.
 
+ 
+ 
+ ### What TLS (Transport Layer Security) versions are supported?
+ 
+ To be compliant with the security requirements API supports only TLS 1.2 (preferably ) and TLS 1.1.
+ 
+ 
+ ### Why am I getting denied access on Esports?
+
+ Access to Esports is blocked and requires special authorization. To get the access please contact customer service and explain your business case. 
+ 
+
 ### How to get odds changes?
 
 1) Call the snapshot /odds (without the since parameter) - this would return cached odds snapshot
@@ -254,12 +266,3 @@ Example:
 2) Subsequent, Delta call returns just period 1 with the  `moneyline` and `totals`
     
  => This means that the period `number`=0 did not have any changes, and on the the period `number`=1 , the `spreads` is not offered anymore while the `totals` are offered now and the `moneyline` may have new prices
- 
- ### What TLS (Transport Layer Security) versions are supported?
- 
- To be compliant with the security requirements API supports only TLS 1.2 (preferably ) and TLS 1.1.
- 
- 
- ### Why am I getting denied access on Esports?
- Access to Esports is blocked and requires special authorization. To get the access please contact customer service and explain your business case. 
- 

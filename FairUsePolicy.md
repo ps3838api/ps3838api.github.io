@@ -1,3 +1,6 @@
+<img _ngcontent-c2="" src="https://avatars1.githubusercontent.com/u/28770833?s=88&v=4" style="background-color: transparent;"> 
+
+
 # Fair Use
 This API is protected by copyright laws and is provided free of charge to our players, partners and affiliates only.
 
@@ -21,6 +24,7 @@ Sell, rent, lease, sublicense, redistribute, or syndicate the API to any third p
 
 - Requests made for the /fixtures and /odds operation without the since parameter must be restricted to once every 60 seconds;
 - Requests made for the /fixtures and /odds operation with the since parameter must be restricted to once every 5 seconds.
+
 ### Best practice
 
 Please use a delta /fixtures and /odds calls (with the since parameter) calls instead of a snapshot /fixtures and /odds calls (without since parameter).
