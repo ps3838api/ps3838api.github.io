@@ -18,13 +18,12 @@
   
 ##### 3# <span>FEATURE</span>  - New version for getting inrunning - `/v2/inrunning`
   
-##### 4# <span>FEATURE</span>  - New operation `/v1/periods`
-  Returns all periods for a given sport.
+##### 4# <span>FEATURE</span>  - New operation `/v1/periods` to get all periods for a given sport
   
-##### 5# <span>FEATURE</span>  - New operation `/v1/teaser/groups`
-  Returns all teaser groups
+##### 5# <span>FEATURE</span>  - New operation `/v1/teaser/groups` to get all teaser groups
   
-  
+##### 6# <span>FEATURE</span>  - New operation `/v1/cancellationreasons` to get all the cancellation reasons
+
   
 
 ## August 14th, 2018 - Bets API 
