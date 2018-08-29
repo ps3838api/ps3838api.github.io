@@ -5,23 +5,23 @@
 
 ## August 28th, 2018 - Lines API
 
-##### 1# <span>FEATURE</span>  - Added new version 3 for getting sports - `v3/sports` to support new properties
+##### 1# <span>FEATURE</span>  - New version for getting sports - `v3/sports` to support new properties
   + leagueSpecialsCount
   + eventSpecialsCount
   + eventCount
 
-##### 2# <span>FEATURE</span>  - Added new version 3 for getting leagues - `v3/leagues` to support new properties
+##### 2# <span>FEATURE</span>  - New version for getting leagues - `v3/leagues` to support new properties
   + container
   + leagueSpecialsCount
   + eventSpecialsCount
   + eventCount
   
-##### 3# <span>FEATURE</span>  - Added new version 2 for getting inrunning - `/v2/inrunning`
+##### 3# <span>FEATURE</span>  - New version 2 for getting inrunning - `/v2/inrunning`
   
-##### 4# <span>FEATURE</span>  - Added new operation `/v1/periods`
+##### 4# <span>FEATURE</span>  - New operation `/v1/periods`
   Returns all periods for a given sport.
   
-##### 5# <span>FEATURE</span>  - Added new operation `/v1/teaser/groups`
+##### 5# <span>FEATURE</span>  - New operation `/v1/teaser/groups`
   Returns all teaser groups
   
   
