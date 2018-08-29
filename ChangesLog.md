@@ -5,11 +5,17 @@
 
 ## August 28th, 2018 - Lines API
 
-##### 1# <span>FEATURE</span>  - New version 3 for sports - `v3/sports` to add new properties
+##### 1# <span>FEATURE</span>  - Added new version 3 for sports - `v3/sports` to support new properties
   + leagueSpecialsCount
   + eventSpecialsCount
   + eventCount
 
+##### 2# <span>FEATURE</span>  - Added new version 3 for leagues - `v3/leagues` to support new properties
+  + container
+  + leagueSpecialsCount
+  + eventSpecialsCount
+  + eventCount
+  
 
 ## August 14th, 2018 - Bets API 
 
