@@ -16,7 +16,7 @@
   + eventSpecialsCount
   + eventCount
   
-##### 3# <span>FEATURE</span>  - New version 2 for getting inrunning - `/v2/inrunning`
+##### 3# <span>FEATURE</span>  - New version for getting inrunning - `/v2/inrunning`
   
 ##### 4# <span>FEATURE</span>  - New operation `/v1/periods`
   Returns all periods for a given sport.
