@@ -3,6 +3,14 @@
  
  #  **API Changelog**
 
+## August 28th, 2018 - Lines API
+
+##### 1# <span>FEATURE</span>  - New version 3 for sports - `v3/sports` to add new properties
+  + leagueSpecialsCount
+  + eventSpecialsCount
+  + eventCount
+
+
 ## August 14th, 2018 - Bets API 
 
 ##### 1# <span>FEATURE</span>  - Bet object added to the `v2/bets/parlay` , `v1/bets/teaser`  and `v2/bets/special`  response.  
