@@ -5,24 +5,37 @@
 
 ## August 28th, 2018 - Lines API
 
-##### 1# <span>FEATURE</span>  - New version for getting sports - `v3/sports` to support new properties
+##### 1# <span>FEATURE</span>  - New version for getting Sports - `v3/sports` to support new properties
   + leagueSpecialsCount
   + eventSpecialsCount
   + eventCount
 
-##### 2# <span>FEATURE</span>  - New version for getting leagues - `v3/leagues` to support new properties
+##### 2# <span>FEATURE</span>  - New version for getting Leagues - `v3/leagues` to support new properties
   + container
   + leagueSpecialsCount
   + eventSpecialsCount
   + eventCount
+
+##### 3# <span>FEATURE</span>  - New version for getting Fixtures  - `/v3/fixtures`
+Most important changes:
+ + New parameter `eventIds` 
+ + New properties `parentId`, `resultingUnit`
+ 
+##### 4# <span>FEATURE</span>  - New version for getting Special Fixtures - `/v2/fixtures/special`
+
+##### 5# <span>FEATURE</span>  - New version for getting Settled Fixtures - `/v3/fixtures/settled`
+Most important changes:
+ + New property `cancellationReason`
+
+
+
+##### 0# <span>FEATURE</span>  - New version for getting inrunning - `/v2/inrunning`
   
-##### 3# <span>FEATURE</span>  - New version for getting inrunning - `/v2/inrunning`
+##### 0# <span>FEATURE</span>  - New operation `/v1/periods` to get all periods for a given sport
   
-##### 4# <span>FEATURE</span>  - New operation `/v1/periods` to get all periods for a given sport
+##### 0# <span>FEATURE</span>  - New operation `/v1/teaser/groups` to get all teaser groups
   
-##### 5# <span>FEATURE</span>  - New operation `/v1/teaser/groups` to get all teaser groups
-  
-##### 6# <span>FEATURE</span>  - New operation `/v1/cancellationreasons` to get all the cancellation reasons
+##### 0# <span>FEATURE</span>  - New operation `/v1/cancellationreasons` to get all the cancellation reasons
 
   
 
