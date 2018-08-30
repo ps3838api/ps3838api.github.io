@@ -37,8 +37,7 @@
  + New properties `status` in response
  
 ##### 9# <span>FEATURE</span>  - New operation `/v1/odds/teaser` to get odds for specified teaser
- 
- 
+  
 ##### 10# <span>FEATURE</span>  - New version for getting Special Odds - `/v2/odds/special`
 
 ##### 11# <span>FEATURE</span>  - New version for getting Straight Line - `/v2/line`
