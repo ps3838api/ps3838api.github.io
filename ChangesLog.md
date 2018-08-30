@@ -38,6 +38,7 @@
  
 ##### 9# <span>FEATURE</span>  - New operation `/v1/odds/teaser` to get odds for specified teaser
  
+ 
 ##### 10# <span>FEATURE</span>  - New version for getting Special Odds - `/v2/odds/special`
 
 ##### 11# <span>FEATURE</span>  - New version for getting Straight Line - `/v2/line`
@@ -48,16 +49,15 @@
 
 ##### 13# <span>FEATURE</span>  - New operation `/v1/line/teaser` to get bet limit and price on success
 
-##### 0# <span>FEATURE</span>  - New version for getting inrunning - `/v2/inrunning`
+##### 14# <span>FEATURE</span>  - New version for getting inrunning - `/v2/inrunning`
   
-##### 0# <span>FEATURE</span>  - New operation `/v1/periods` to get all periods for a given sport
+##### 15# <span>FEATURE</span>  - New operation `/v1/periods` to get all periods for a given sport
   
-##### 0# <span>FEATURE</span>  - New operation `/v1/teaser/groups` to get all teaser groups
+##### 16# <span>FEATURE</span>  - New operation `/v1/teaser/groups` to get all teaser groups
   
-##### 0# <span>FEATURE</span>  - New operation `/v1/cancellationreasons` to get all the cancellation reasons
+##### 17# <span>FEATURE</span>  - New operation `/v1/cancellationreasons` to get all the cancellation reasons
 
-  
 
-## August 14th, 2018 - Bets API 
+## August 28th, 2018 - Bets API 
 
 ##### 1# <span>FEATURE</span>  - Bet object added to the `v2/bets/parlay` , `v1/bets/teaser`  and `v2/bets/special`  response.  
