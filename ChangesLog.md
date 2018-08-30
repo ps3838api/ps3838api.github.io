@@ -27,7 +27,11 @@ Most important changes:
 Most important changes:
  + New property `cancellationReason`
 
-
+##### 6# <span>FEATURE</span>  - New version for getting Settled Special Fixtures - `/v3/fixtures/special/settled`
+Most important changes:
+ + New property `cancellationReason`
+ 
+ 
 
 ##### 0# <span>FEATURE</span>  - New version for getting inrunning - `/v2/inrunning`
   
