@@ -81,7 +81,7 @@ Most important changes: Support paging for getting bets
   + New parameters `specialId`, `uniqueRequestIds`, `sortDir`, `pageSize`, `fromRecord`
   + New properties `moreAvailable`, `pageSize`, `fromRecord`, `toRecord` in response 
 
-
+##### 7# <span>FEATURE</span>  - New operation to get Betting Status- `/v1/bets/teaser`
 
 
 
