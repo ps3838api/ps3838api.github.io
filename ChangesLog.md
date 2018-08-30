@@ -17,19 +17,27 @@
   + eventCount
 
 ##### 3# <span>FEATURE</span>  - New version for getting Fixtures  - `/v3/fixtures`
-Most important changes:
  + New parameter `eventIds` 
- + New properties `parentId`, `resultingUnit`
+ + New properties `parentId`, `resultingUnit` in response
  
 ##### 4# <span>FEATURE</span>  - New version for getting Special Fixtures - `/v2/fixtures/special`
 
 ##### 5# <span>FEATURE</span>  - New version for getting Settled Fixtures - `/v3/fixtures/settled`
-Most important changes:
- + New property `cancellationReason`
+ + New property `cancellationReason` in response
 
 ##### 6# <span>FEATURE</span>  - New version for getting Settled Special Fixtures - `/v3/fixtures/special/settled`
-Most important changes:
- + New property `cancellationReason`
+ + New property `cancellationReason` in response
+ 
+##### 7# <span>FEATURE</span>  - New version for getting Straight Odds  - `/v3/odds`
+ + New parameter `eventIds`, `toCurrencyCode`
+ + New properties `status` in response
+ 
+##### 8# <span>FEATURE</span>  - New version for getting Parlay Odds  - `/v3/odds/parlay`
+ + New parameter `eventIds`
+ + New properties `status` in response
+ 
+ 
+ 
  
  
 
