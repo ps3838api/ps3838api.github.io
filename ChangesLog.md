@@ -59,4 +59,30 @@
 
 ## August 28th, 2018 - Bets API 
 
-##### 1# <span>FEATURE</span>  - Bet object added to the `v2/bets/parlay` , `v1/bets/teaser`  and `v2/bets/special`  response.  
+##### 1# <span>FEATURE</span>  - New version for placing straight bet - `/v2/bets/place` 
+Most important changes:
+  + New property `straightBet` object in response 
+  
+##### 2# <span>FEATURE</span>  - New version for placing parlay bet - `/v2/bets/parlay` 
+Most important changes:
+  + New property `parlayBet` object in response 
+  
+##### 3# <span>FEATURE</span>  - New operation to place teaser bet - `/v1/bets/teaser`
+
+##### 4# <span>FEATURE</span>  - New operation to place specials bet - `/v2/bets/special`
+
+##### 5# <span>FEATURE</span>  - New version for getting Bets - `/v3/bets` 
+Most important changes: Support paging for getting bets  
+  + New parameters `betStatuses`, `sortDir`, `pageSize`, `fromRecord`
+  + New properties `moreAvailable`, `pageSize`, `fromRecord`, `toRecord` in response 
+    
+##### 6# <span>FEATURE</span>  - New version for getting Bets Settled - `/v3/bets/settled` 
+Most important changes: Support paging for getting bets  
+  + New parameters `specialId`, `uniqueRequestIds`, `sortDir`, `pageSize`, `fromRecord`
+  + New properties `moreAvailable`, `pageSize`, `fromRecord`, `toRecord` in response 
+
+
+
+
+
+
