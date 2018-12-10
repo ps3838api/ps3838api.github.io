@@ -4,17 +4,17 @@
  #  **API Changelog**
 
 ## October 9, 2018 - Bets API 
-##### 1# <span>FEATURE</span>  - Add fillType parameter to `/v2/bets/place` 
+##### 1# <span>FEATURE</span>  - Add fillType parameter to `/v2/bets/place` <br>
+
 Default: "NORMAL"
-Enum:"NORMAL" "FILLANDKILL" "FILLMAXLIMIT"
+Enum:"NORMAL" "FILLANDKILL" "FILLMAXLIMIT" 
 NORMAL - bet will be placed on specified stake.
 FILLANDKILL - If the stake is over the max limit, bet will be placed on max limit, otherwise it will be placed on specified stake.
 FILLMAXLIMIT - bet will be places on max limit, stake amount will be ignored. Please note that maximum limits can change at any moment, which may result in risking more than anticipated. This option is replacement of isMaxStakeBet from v1/bets/place'
 
 
 ## August 28, 2018 - Customer API
-##### 1# <span>FEATURE</span>  - New version for getting Translations - `/v3/translations` 
-  
+##### 1# <span>FEATURE</span>  - New version for getting Translations - `/v3/translations` <br>
 
 ## August 28, 2018 - Lines API
 
