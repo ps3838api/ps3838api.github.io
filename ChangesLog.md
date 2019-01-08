@@ -5,10 +5,10 @@
 
 ## January 8, 2019 - Bets API 
 
-##### 1# <span>FEATURE</span>  - New property eventStartTime for straight and special bets in the /v3/bets response 
+##### 1# <span>FEATURE</span>  - New property eventStartTime for straight and special bets in the `/v3/bets` response 
 
 ## January 8, 2019 - Lines API
-##### 1# <span>FEATURE</span>  - FEATURE - Added handicap parameter to line/special 
+##### 1# <span>FEATURE</span>  - FEATURE - Added handicap parameter to `/v2/line/special` 
 
 As contestant's handicap is a mutable property, it may happened that line/special returns status:SUCCESS, but with the different handicap from the one that client had at the moment of calling the line/special. One can specify handicap parameter in the request and if the contestant's handicap changed, it would return status:NOT_EXISTS. This way line/special is more aligned to how /line works.
 
