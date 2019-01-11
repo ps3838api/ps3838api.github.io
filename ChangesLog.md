@@ -3,6 +3,11 @@
  
  #  **API Changelog**
 
+## January 11, 2019 - Bets API 
+
+##### 1# <span>FIX</span>  - Added optional handicap parameter for placing straight bet `/v2/bets/place`, This parameter to prevent NOT_EXISTS Error
+Note: Input line id and alt line ID must be valid line id.
+
 ## January 8, 2019 - Bets API 
 
 ##### 1# <span>FEATURE</span>  - New property eventStartTime for straight and special bets in the `/v3/bets` response 
