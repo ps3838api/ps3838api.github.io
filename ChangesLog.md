@@ -3,6 +3,12 @@
  
  #  **API Changelog**
 
+## February 19, 2019 - Lines API 
+
+##### 1# <span>FEATURE</span>  - New property liveStatus in the `/v2/fixtures/special` response 
+
+Will start offering live betting on specials soon, firstly on Esports. This property was introduce so that clients can differentiate live from pregame specials. Please note that live delay will be applied to betting on live specials.
+
 ## January 11, 2019 - Bets API 
 
 ##### 1# <span>FIX</span>  - Added optional handicap parameter for placing straight bet `/v2/bets/place`, This parameter to prevent NOT_EXISTS Error
