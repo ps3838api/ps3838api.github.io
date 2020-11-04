@@ -51,6 +51,123 @@ API | Recommended API Version | Recommended Interval
 /line/special | /v2 | On demand
 /translations | /v3 | Every 5min
 /client/balance | /v1 | On demand
+<table>
+  <tr>
+    <th>API</th>
+    <th>Recommended API Version</th>
+    <th>Recommended Interval</th>
+  </tr>
+  <tr>
+    <td>/sports</td>
+    <td>/v3</td>
+    <td>Every 60s</td>
+  </tr>
+  <tr>
+    <td>/leagues</td>
+    <td>/v3</td>
+    <td>Every 60s</td>
+  </tr>
+  <tr>
+    <td>/fixtures</td>
+    <td>/v3</td>
+    <td><ul><li>Every 5s per sport with since parameter</li><li>Every 60s per sport without since parameter</li></ul></td>
+  </tr>
+  <tr>
+    <td>/fixtures/settled</td>
+    <td>/v3</td>
+    <td><ul><li>Every 5s per sport with since parameter</li><li>Every 60s per sport without since parameter</li></ul></td>
+  </tr>
+  <tr>
+    <td>/fixtures/special</td>
+    <td>/v2</td>
+    <td><ul><li>Every 5s per sport with since parameter</li><li>Every 60s per sport without since parameter</li></ul></td>
+  </tr>
+  <tr>
+    <td>/fixtures/special/settled</td>
+    <td>/v3</td>
+    <td><ul><li>Every 5s per sport with since parameter</li><li>Every 60s per sport without since parameter</li></ul></td>
+  </tr>
+  <tr>
+    <td>/odds</td>
+    <td>/v3</td>
+    <td><ul><li>Every 5s per sport with since parameter</li><li>Every 60s per sport without since parameter</li></ul></td>
+  </tr>
+  <tr>
+    <td>/odds/parlay</td>
+    <td>/v3</td>
+    <td><ul><li>Every 5s per sport with since parameter</li><li>Every 60s per sport without since parameter</li></ul></td>
+  </tr>
+  <tr>
+    <td>/odds/special</td>
+    <td>/v2</td>
+    <td><ul><li>Every 5s per sport with since parameter</li><li>Every 60s per sport without since parameter</li></ul></td>
+  </tr>
+  <tr>
+    <td>/odds/teaser</td>
+    <td>/v1</td>
+    <td>Every 5s per teaser Id</td>
+  </tr>
+  <tr>
+    <td>/inrunning</td>
+    <td>/v2</td>
+    <td>Every 2s</td>
+  </tr>
+  <tr>
+    <td>/teaser/groups</td>
+    <td>/v1</td>
+    <td>Every 60s</td>
+  </tr>
+  <tr>
+    <td>/bets (Get Bet)</td>
+    <td>/v3</td>
+    <td>Every 2s</td>
+  </tr>
+  <tr>
+    <td>/betting-status</td>
+    <td>/v1</td>
+    <td>Every 1s</td>
+  </tr>
+  <tr>
+    <td>/cancellationreasons</td>
+    <td>/v1</td>
+    <td>Every 10min</td>
+  </tr>
+  <tr>
+    <td>/currencies</td>
+    <td>/v2</td>
+    <td>Every 10min</td>
+  </tr>
+  <tr>
+    <td>/line</td>
+    <td>/v2</td>
+    <td>On demand</td>
+  </tr>
+  <tr>
+    <td>/line/parlay</td>
+    <td>/v2</td>
+    <td>On demand</td>
+  </tr>
+  <tr>
+    <td>/line/teaser</td>
+    <td>/v1</td>
+    <td>On demand</td>
+  </tr>
+  <tr>
+    <td>/line/special</td>
+    <td>/v2</td>
+    <td>On demand</td>
+  </tr>
+  <tr>
+    <td>/translations</td>
+    <td>/v3</td>
+    <td>On demand</td>
+  </tr>
+  <tr>
+    <td>/client/balance</td>
+    <td>/v1</td>
+    <td>On demand</td>
+  </tr>
+</table>
 
 ### Best practice
 
