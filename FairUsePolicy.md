@@ -46,37 +46,37 @@ Sell, rent, lease, sublicense, redistribute, or syndicate the API to any third p
   <tr>
     <td>/fixtures</td>
     <td>/v3</td>
-    <td><ul><li>Every 5s per sport with since parameter</li><li>Every 60s per sport without since parameter</li></ul></td>
+    <td><p>Every 5s per sport with since parameter</p><p>Every 60s per sport without since parameter</p></td>
   </tr>
   <tr>
     <td>/fixtures/settled</td>
     <td>/v3</td>
-    <td><ul><li>Every 5s per sport with since parameter</li><li>Every 60s per sport without since parameter</li></ul></td>
+    <td><p>Every 5s per sport with since parameter</p><p>Every 60s per sport without since parameter</p></td>
   </tr>
   <tr>
     <td>/fixtures/special</td>
     <td>/v2</td>
-    <td><ul><li>Every 5s per sport with since parameter</li><li>Every 60s per sport without since parameter</li></ul></td>
+    <td><p>Every 5s per sport with since parameter</p><p>Every 60s per sport without since parameter</p></td>
   </tr>
   <tr>
     <td>/fixtures/special/settled</td>
     <td>/v3</td>
-    <td><ul><li>Every 5s per sport with since parameter</li><li>Every 60s per sport without since parameter</li></ul></td>
+    <td><p>Every 5s per sport with since parameter</p><p>Every 60s per sport without since parameter</p></td>
   </tr>
   <tr>
     <td>/odds</td>
     <td>/v3</td>
-    <td><ul><li>Every 5s per sport with since parameter</li><li>Every 60s per sport without since parameter</li></ul></td>
+    <td><p>Every 5s per sport with since parameter</p><p>Every 60s per sport without since parameter</p></td>
   </tr>
   <tr>
     <td>/odds/parlay</td>
     <td>/v3</td>
-    <td><ul><li>Every 5s per sport with since parameter</li><li>Every 60s per sport without since parameter</li></ul></td>
+    <td><p>Every 5s per sport with since parameter</p><p>Every 60s per sport without since parameter</p></td>
   </tr>
   <tr>
     <td>/odds/special</td>
     <td>/v2</td>
-    <td><ul><li>Every 5s per sport with since parameter</li><li>Every 60s per sport without since parameter</li></ul></td>
+    <td><p>Every 5s per sport with since parameter</p><p>Every 60s per sport without since parameter</p></td>
   </tr>
   <tr>
     <td>/odds/teaser</td>
