@@ -27,30 +27,6 @@ Sell, rent, lease, sublicense, redistribute, or syndicate the API to any third p
 - Requests made for the /fixtures and /odds operation with the since parameter must be restricted to once every 5 seconds.
 
 #### Recommended calling rate
-API | Recommended API Version | Recommended Interval
------------- | ------------- | -------------
-/sports | /v3 | Every 60s
-/leagues | /v3 | Every 60s
-/fixtures | /v3 | <ul><li>Every 5s per sport with since parameter</li><li>Every 60s per sport without since parameter</li></ul>
-/fixtures/special | /v2 | <ul><li>Every 5s per sport with since parameter</li><li>Every 60s per sport without since parameter</li></ul>
-/fixtures/settled | /v3 | <ul><li>Every 5s per sport with since parameter</li><li>Every 60s per sport without since parameter</li></ul>
-/fixtures/special/settled | /v3 | <ul><li>Every 5s per sport with since parameter</li><li>Every 60s per sport without since parameter</li></ul>
-/odds |	/v3 |	<ul><li>Every 5s per sport with since parameter</li><li>Every 60s per sport without since parameter</li></ul>
-/odds/parlay | /v3 | <ul><li>Every 5s per sport with since parameter</li><li>Every 60s per sport without since parameter</li></ul>
-/odds/teaser | /v1 | Every 5s per teaser Id
-/odds/special | /v2 | <ul><li>Every 5s per sport with since parameter</li><li>Every 60s per sport without since parameter</li></ul>
-/inrunning | /v2 | Every 2s
-/teaser/groups | /v1 | Every 60s
-/bets (Get Bet) | /v3 | Every 2s
-/betting-status | /v1 | Every 1s
-/cancellationreasons | /v1 | Every 10min
-/currencies | /v2 | Every 10min
-/line	| /v2 |	On demand
-/line/parlay | /v2 | On demand
-/line/teaser | /v1 | On demand
-/line/special | /v2 | On demand
-/translations | /v3 | Every 5min
-/client/balance | /v1 | On demand
 <table>
   <tr>
     <th>API</th>
