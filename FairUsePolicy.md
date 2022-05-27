@@ -2,14 +2,16 @@
 
 
 
-# Fair Use
-This API is protected by copyright laws and is provided free of charge to our players, partners and affiliates only.
+# Fair Use Policy
+This API is protected by copyright laws and is provided only to our players, partners and affiliates.
 
-The use of this free resource is subject to our "Fair Use Policy" which is set out below.
+The use of this resource is subject to our "Fair Use Policy" which is set out below.
 
-When you utilize the API, you are agreeing to this policy. Any breaches of this policy, whether intentional or not, may result in a temporary or permanent suspension of your access without notice at our sole discretion.
+Use of the API constitutes your agreement to this policy. You understand and agree that at our sole discretion, and without prior notice, we may block access to our site if we believe that your use of our site has violated or is inconsistent with this Fair Use Policy.
 
-# Fair usage
+We may at any time, and at our sole discretion, modify this Fair Use Policy, with or without prior notice. Any such modification will be effective immediately upon public posting. Your continued use of our APIs and this site following such modification constitutes your acceptance of the modified terms in this Fair Use Policy.
+
+## Fair usage
 
 The API is provided to players to facilitate wagering and may not be used for data gathering, scrapping or any other purpose. The API usage must be proportionate to wagering activities as determined on a case by case basis by PS3838.
 
@@ -19,7 +21,26 @@ You will not attempt or encourage others to:
 
 - To interfere with, disrupt, or disable any API features;
 - Use the API for commercial purposes without a written agreement with PS3838;
-Sell, rent, lease, sublicense, redistribute, or syndicate the API to any third party without prior written approval from PS3838.
+- Sell, rent, lease, sublicense, redistribute, or syndicate the API to any third party without prior written approval from PS3838.
+
+### Rules 
+ 
+1. Delta and snapshot calls are supported in `/fixtures`, `/fixtures/special` , `/odds` and `/odds/special`  endpoints.  Delta calls return changes since the provided  `since` value. For delta calls `since` parameter must not be set to 0 or 1, it must be always set with the `last` property value of the previous call response. Snapshot calls return the current state,  `since` parameter must not be provided for snapshot calls.
+
+2. Always first issue a snapshot call and continue with the delta calls. This would result in a faster response time and a smaller response payload. As a result, the client will   get the odds/fixtures updates faster. 
+
+3. Client must not call `/odds` or `/fixture` endpoint for each sport league or fixture in the loop.  If the client is interested in certain leagues only,  `leagueIds` parameter must be set with all the league identifiers. 
+ Same for the `eventIds` parameter, the client should use it only if interested in specific events in which case all event identifiers must be provided in the same call. 
+
+4. The following limitations must be observed for `/sports` call:
+-  Requests made for the `/sports`  must be restricted to once every 60 minute. List of sports does not change often. The count of active events is obsolete functionality, that will eventually be decommissioned.  
+
+5. The following limitations must be observed per sport:
+- Snapshot call to `/fixtures` and `/odds` endpoints must be restricted to once every 60 seconds, regardless of the `leagueIds`, `eventIds` or `islive` parameters.
+- Delta calls to  `/fixtures` and `/odds` endpoints must be restricted to once every 5 seconds, regardless of the `leagueIds`, `eventIds` or `islive` parameters.
+- Calls to `/leagues` must be restricted to once every 60 minutes.
+
+6. Client must not call `/line` endpoint in the loop. The purpose of this endpoint is to check the price prior to the bet placing.
 
 ### The following limitations must be observed per sport:
 
@@ -145,9 +166,6 @@ Sell, rent, lease, sublicense, redistribute, or syndicate the API to any third p
   </tr>
 </table>
 
-### Best practice
-
-Please use a delta /fixtures and /odds calls (with the since parameter) calls instead of a snapshot /fixtures and /odds calls (without since parameter).
 
 # Disclaimer
 PS3838 is not liable for use of the API for any purpose, the API is provided on an “as is” and “as available” basis, without warranties of any kind, either express or implied, including, without limitation, implied warranties of merchantability, fitness for a particular purpose or non-infringement.
