@@ -30,7 +30,7 @@ You will not attempt or encourage others to:
 3. Client must not call `/odds` or `/fixture` endpoint for each sport league or fixture in the loop.  If the client is interested in certain leagues only,  `leagueIds` parameter must be set with all the league identifiers. 
  Same for the `eventIds` parameter, the client should use it only if interested in specific events in which case all event identifiers must be provided in the same call.
 4. The following limitations must be observed for `/sports` call:
-    + Requests made for the `/sports`  must be restricted to once every 60 minute. List of sports does not change often. The count of active events is obsolete functionality, that will eventually be decommissioned.
+    <ul><li> Requests Requests made for the `/sports`  must be restricted to once every 60 minute. List of sports does not change often. The count of active events is obsolete functionality, that will eventually be decommissioned.</li></ul>
 5. The following limitations must be observed per sport:
     + Snapshot call to `/fixtures` and `/odds` endpoints must be restricted to once every 60 seconds, regardless of the `leagueIds`, `eventIds` or `islive` parameters.
     + Delta calls to  `/fixtures` and `/odds` endpoints must be restricted to once every 5 seconds, regardless of the `leagueIds`, `eventIds` or `islive` parameters.
