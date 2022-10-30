@@ -9,6 +9,13 @@
 
 Will start offering live betting on specials soon, firstly on Esports. This property was introduce so that clients can differentiate live from pregame specials. Please note that live delay will be applied to betting on live specials.
 
+## September 12, 2022 - Lines API
+
+#### 1. IMPROVEMENT - Tennis events trading.
+
+Currently, all Tennis markets are offered with the `Regular`  `resultingUnit`,  except for the Set Handicaps markets which have `Sets` `resultingUnit`. The Set Handicaps markets events have the resulting unit and the handicap points in the team names and are offered as Moneylines. 
+Future tennis events will start using proper `resultingUnit`  and the Sets Handicaps markets will have handicap points removed from the team names and offered as spread markets.
+
 ## January 11, 2019 - Bets API 
 
 ##### 1# <span>FIX</span>  - Added optional handicap parameter for placing straight bet `/v2/bets/place`, This parameter to prevent NOT_EXISTS Error
