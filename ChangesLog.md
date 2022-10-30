@@ -2,19 +2,19 @@
 
  
  #  **API Changelog**
-
-## February 19, 2019 - Lines API 
-
-##### 1# <span>FEATURE</span>  - New property liveStatus in the `/v2/fixtures/special` response 
-
-Will start offering live betting on specials soon, firstly on Esports. This property was introduce so that clients can differentiate live from pregame specials. Please note that live delay will be applied to betting on live specials.
-
+ 
 ## September 12, 2022 - Lines API
 
 #### 1. IMPROVEMENT - Tennis events trading.
 
 Currently, all Tennis markets are offered with the `Regular`  `resultingUnit`,  except for the Set Handicaps markets which have `Sets` `resultingUnit`. The Set Handicaps markets events have the resulting unit and the handicap points in the team names and are offered as Moneylines. 
 Future tennis events will start using proper `resultingUnit`  and the Sets Handicaps markets will have handicap points removed from the team names and offered as spread markets.
+
+## February 19, 2019 - Lines API 
+
+##### 1# <span>FEATURE</span>  - New property liveStatus in the `/v2/fixtures/special` response 
+
+Will start offering live betting on specials soon, firstly on Esports. This property was introduce so that clients can differentiate live from pregame specials. Please note that live delay will be applied to betting on live specials.
 
 ## January 11, 2019 - Bets API 
 
