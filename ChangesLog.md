@@ -14,7 +14,7 @@ Future tennis events will start using proper `resultingUnit`  and the Sets Handi
 
 ##### 1# <span>FEATURE</span>  - New property liveStatus in the `/v2/fixtures/special` response 
 
-Will start offering live betting on specials soon, firstly on Esports. This property was introduce so that clients can differentiate live from pregame specials. Please note that live delay will be applied to betting on live specials.
+Will start offering live betting on specials soon. This property was introduce so that clients can differentiate live from pregame specials. Please note that live delay will be applied to betting on live specials.
 
 ## January 11, 2019 - Bets API 
 
