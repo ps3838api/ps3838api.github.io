@@ -72,7 +72,13 @@
           $listitem.innerText = 'Agent API';
           $listitem.addEventListener('click', onClick);
           $list.appendChild($listitem);
-	    }else {
+	  document.addEventListener('DOMContentLoaded', function() {
+	    if (window.location !== window.parent.location) {
+		var header = document.querySelector("nav #links_container");
+		   header && header.remove()
+	    }
+	  })
+	}else {
         // list of APIS
         var apis = [
           {
