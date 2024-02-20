@@ -59,8 +59,8 @@
           return result;
       }
       var param = findGetParameter("api");
-      if (param === 'agent') {
-      		var agentUrl = 'https://raw.githubusercontent.com/ps3838api/api-spec/master/OpenAPI/agentapi.yaml';
+      if (param === 'agent' || param === 'agent-testing') {
+      		var agentUrl = param === 'agent' ? 'https://raw.githubusercontent.com/ps3838api/api-spec/master/OpenAPI/agentapi.yaml' : 'https://raw.githubusercontent.com/ps3838api/api-spec/testing/OpenAPI/agentapi.yaml';
       		Redoc.init(agentUrl);
       		function onClick() {
       			var url = this.getAttribute('data-link');
