@@ -59,6 +59,7 @@
           return result;
       }
       var param = findGetParameter("api");
+      var isTest = findGetParameter("isTest");
       if (param === 'agent' || param === 'agent-testing') {
       		var agentUrl = param === 'agent' ? 'https://raw.githubusercontent.com/ps3838api/api-spec/master/OpenAPI/agentapi.yaml' : 'https://raw.githubusercontent.com/ps3838api/api-spec/testing/OpenAPI/agentapi.yaml';
       		Redoc.init(agentUrl);
@@ -80,18 +81,19 @@
 	  })
 	}else {
         // list of APIS
+        var branchName = isTest === 'true' ? 'testing-branch' : 'master'; 
         var apis = [
           {
             name: 'Customer API',
-            url: 'https://raw.githubusercontent.com/ps3838api/api-spec/master/OpenAPI/customerapi.yaml'
+            url: 'https://raw.githubusercontent.com/ps3838api/api-spec/' + branchName + '/OpenAPI/customerapi.yaml'
           },
           {
             name: 'Lines API',
-            url: 'https://raw.githubusercontent.com/ps3838api/api-spec/master/OpenAPI/linesapi.yaml'
+            url: 'https://raw.githubusercontent.com/ps3838api/api-spec/' + branchName + '/OpenAPI/linesapi.yaml'
           },  
           {
             name: 'Bets API',
-            url: 'https://raw.githubusercontent.com/ps3838api/api-spec/master/OpenAPI/betsapi.yaml'
+            url: 'https://raw.githubusercontent.com/ps3838api/api-spec/' + branchName + '/OpenAPI/betsapi.yaml'
           }    
         ];
         // initially render first API
