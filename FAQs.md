@@ -266,3 +266,43 @@ Example:
 2) Subsequent, Delta call returns just period 1 with the  `moneyline` and `totals`
     
  => This means that the period `number`=0 did not have any changes, and on the the period `number`=1 , the `spreads` is not offered anymore while the `totals` are offered now and the `moneyline` may have new prices
+
+ 
+###  How to calculate max risk from the max volume limits in `/odds`?
+
+`/odds` operation returns max volume limits.
+
+To calculate the max risk from the max volume , for a price in decimal odds format, you can use this formula:
+
+If  price  > 2  then:  
+```
+maxRisk = maxVolume  
+```
+, otherwise when price  < 2: 
+```
+ maxRisk = maxVolume/(price - 1)
+
+```
+
+
+
+##### Example:
+
+When `/odds` return this moneyline offering
+```json 
+{
+                            "lineId": 242220498,
+                            "number": 1,
+                            "cutoff": "2019-08-30T21:00:00Z",
+                            "maxMoneyline": 250,
+                            "status": 1,
+                            "moneyline": {
+                                "home": 1.819,
+                                "away": 2.03
+                            }
+                        }
+
+```
+Max volume is 250.
+Home team max risk is 305. 
+Away team max risk is 250.
