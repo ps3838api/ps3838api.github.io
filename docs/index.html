@@ -70,7 +70,7 @@
           var $list = document.getElementById('links_container');
           var $listitem = document.createElement('li');
           $listitem.setAttribute('data-link', agentUrl);
-          $listitem.innerText = 'Agent API';
+          $listitem.innerText = param === 'agent' ? 'Agent API' : 'Partner API';
           $listitem.addEventListener('click', onClick);
           $list.appendChild($listitem);
 	  document.addEventListener('DOMContentLoaded', function() {
