@@ -248,10 +248,6 @@ Please use  `Get Settled Fixtures`  to find out if the event's period was settle
  To be compliant with the security requirements API supports only TLS 1.2 (preferably ) and TLS 1.1.
  
  
- ### Why am I getting denied access on Esports?
-
- Access to Esports is blocked for all accounts. To get the access please contact customer service and explain your business case. 
- 
 
 ### How to get odds changes?
 
