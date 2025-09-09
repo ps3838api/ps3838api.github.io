@@ -243,11 +243,16 @@ Please use  `Get Settled Fixtures`  to find out if the event's period was settle
 
  
  
- ### What TLS (Transport Layer Security) versions are supported?
+### What TLS (Transport Layer Security) versions are supported?
  
- To be compliant with the security requirements API supports only TLS 1.2 (preferably ) and TLS 1.1.
+To be compliant with the security requirements API supports only TLS 1.2 (preferably ) and TLS 1.1.
  
  
+### Why can I not find a given sport or market in the API?
+ 
+We reserve the right to restrict access to any sport, market, even or wager type in the API at any time without notice.
+
+
 
 ### How to get odds changes?
 
