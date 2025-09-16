@@ -250,7 +250,7 @@ To be compliant with the security requirements API supports only TLS 1.2 (prefer
  
 ### Why can I not find a given sport or market in the API?
  
-We reserve the right to restrict access to any sport, market, even or wager type in the API at any time without notice.
+We reserve the right to restrict access to any sport, market, event or wager type in the API at any time without notice.
 
 
 
