@@ -5,7 +5,7 @@
 
 ## August 2025 – Others
 
-#### 1. DEPRECATION – Deprecate several properties in the v1/periods endpoint. Properties being removed:
+##### 1. <span>DEPRECATION</span> – Deprecate several properties in the `v1/periods` endpoint. Properties being removed:
   + spreadDescription
   + moneylineDescription
   + totalDescription
@@ -23,7 +23,7 @@
 ##### 1. <span>FEATURE</span> – New version for getting odds – `v4/odds` to add support for Buy/Sell markets for Team Totals.
 ##### 2. <span>FEATURE</span> – New version for getting parlay odds – `v4/odds/parlay` to add support for Buy/Sell markets for Team Totals.
 
- 
+
 ## September 12, 2022 - Lines API
 
 #### 1. IMPROVEMENT - Tennis events trading.
