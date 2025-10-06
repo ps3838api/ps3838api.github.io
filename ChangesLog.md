@@ -3,11 +3,26 @@
  
  #  **API Changelog**
 
+## August 2025 – Others
+
+#### 1. DEPRECATION – Deprecate several properties in the v1/periods endpoint. Properties being removed:
+  + spreadDescription
+  + moneylineDescription
+  + totalDescription
+  + team1TotalDescription
+  + team2TotalDescription
+  + spreadShortDescription
+  + moneylineShortDescription
+  + totalShortDescription
+  + team1TotalShortDescription
+  + team2TotalShortDescription
+
+
 ## July 2025 – Odds
 
 #### 1. FEATURE – New version for getting odds – v4/odds to add support for Buy/Sell markets for Team Totals.
 
-#### 1. FEATURE – New version for getting parlay odds – v4/odds/parlay to add support for Buy/Sell markets for Team Totals.
+#### 2. FEATURE – New version for getting parlay odds – v4/odds/parlay to add support for Buy/Sell markets for Team Totals.
 
  
 ## September 12, 2022 - Lines API
