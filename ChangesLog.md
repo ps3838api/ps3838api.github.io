@@ -20,9 +20,9 @@
 
 ## July 2025 – Lines API
 
-1. <span>FEATURE</span> – New version for getting odds – `v4/odds` to add support for Buy/Sell markets for Team Totals.
-2. <span>FEATURE</span> – New version for getting parlay odds – `v4/odds/parlay` to add support for Buy/Sell markets for Team Totals.
-
+##### 1. <span>FEATURE</span> – New version for getting odds – `v4/odds` to add support for Buy/Sell markets for Team Totals.
+##### 2. <span>FEATURE</span> – New version for getting parlay odds – `v4/odds/parlay` to add support for Buy/Sell markets for Team Totals.
+<br/>
 ## September 12, 2022 - Lines API
 
 #### 1. IMPROVEMENT - Tennis events trading.
@@ -44,7 +44,7 @@ Note: Input line id and alt line ID must be valid line id.
 ## January 8, 2019 - Bets API 
 
 ##### 1# <span>FEATURE</span>  - New property eventStartTime for straight and special bets in the `/v3/bets` response 
-
+<br/>
 ## January 8, 2019 - Lines API
 ##### 1# <span>FEATURE</span>  - FEATURE - Added handicap parameter to `/v2/line/special` 
 
@@ -60,7 +60,7 @@ As contestant's handicap is a mutable property, it may happened that line/specia
 
 ## August 28, 2018 - Customer API
 ##### 1# <span>FEATURE</span>  - New version for getting Translations - `/v3/translations` <br>
-
+<br/>
 ## August 28, 2018 - Lines API
 
 ##### 1# <span>FEATURE</span>  - New version for getting Sports - `v3/sports` to support new properties
@@ -113,8 +113,7 @@ As contestant's handicap is a mutable property, it may happened that line/specia
 ##### 16# <span>FEATURE</span>  - New operation `/v1/teaser/groups` to get all teaser groups
   
 ##### 17# <span>FEATURE</span>  - New operation `/v1/cancellationreasons` to get all the cancellation reasons
-
-
+<br/>
 ## August 28, 2018 - Bets API 
 
 ##### 1# <span>FEATURE</span>  - New version for placing straight bet - `/v2/bets/place` 
