@@ -20,10 +20,8 @@
 
 ## July 2025 – Lines API
 
-##### 1. <span>FEATURE</span> – New version for getting odds – `v4/odds` to add support for Buy/Sell markets for Team Totals.
-##### 2. <span>FEATURE</span> – New version for getting parlay odds – `v4/odds/parlay` to add support for Buy/Sell markets for Team Totals.
-
-
+1. <span>FEATURE</span> – New version for getting odds – `v4/odds` to add support for Buy/Sell markets for Team Totals.
+2. <span>FEATURE</span> – New version for getting parlay odds – `v4/odds/parlay` to add support for Buy/Sell markets for Team Totals.
 
 ## September 12, 2022 - Lines API
 
