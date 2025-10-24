@@ -3,6 +3,14 @@
  
  #  **API Changelog**
 
+## November 2025 – Bets API
+
+##### 1. <span>FEATURE</span> – New version of bets APIs `/v4`. New APIs:
+  + `/v4/bets/place`
+  + `/v4/bets/special`
+  + `/v4/bets/parlay`
+  + `/v4/bets/teaser`
+
 ## August 2025 – Lines API
 
 ##### 1. <span>DEPRECATION</span> – Deprecate several properties in the `v1/periods` endpoint. Properties being removed:
